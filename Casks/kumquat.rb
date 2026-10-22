@@ -1,6 +1,6 @@
 cask "kumquat" do
-  version "1.0.0"
-  sha256 "aaa7ddbb68d68008989045c7d49ababc51162a51cd26396736ae8934337d1e0e"
+  version "1.0.1"
+  sha256 "f710d0e27358884e45db99822ff98e4a272680fe12311474818c38c202e70af3"
 
   url "https://github.com/TheAlexRay/kumquat/releases/download/v#{version}/Kumquat-#{version}.dmg"
   name "Kumquat"
@@ -23,7 +23,9 @@ cask "kumquat" do
   ]
 
   caveats <<~EOS
-    Kumquat is not notarized yet. On first launch, right-click Kumquat in
-    Applications and choose Open, then confirm.
+    Kumquat is not notarized yet, so macOS blocks the first launch.
+    macOS 15 and later: open Kumquat once, then go to
+      System Settings > Privacy & Security and click "Open Anyway".
+    macOS 14: right-click Kumquat in Applications and choose Open.
   EOS
 end
