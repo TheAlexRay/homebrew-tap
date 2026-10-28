@@ -1,9 +1,9 @@
 # TheAlexRay Homebrew tap
 
 ```bash
-brew install --cask thealexray/tap/kumquat
+brew install --cask thealexray/tap/petalwheel
 ```
 
 | Cask | Description |
 |---|---|
-| [kumquat](https://github.com/TheAlexRay/kumquat) | Menu-bar file converter for macOS: drag files, tap Shift, drop on a petal |
+| [petalwheel](https://github.com/TheAlexRay/petalwheel) | Menu-bar file converter for macOS: drag files, tap Shift, drop on a petal |
