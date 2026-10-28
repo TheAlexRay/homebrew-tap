@@ -1,6 +1,6 @@
 cask "petalwheel" do
-  version "1.1.0"
-  sha256 "e944d28331899f09158074bee5da02c27f05abb6df98b731f61d93dabc4341e2"
+  version "1.2.0"
+  sha256 "e43ce6386cf2e6951dd16a324f97f45ebddbaa456f71c5c211c7dc0ee5a3e271"
 
   url "https://github.com/TheAlexRay/petalwheel/releases/download/v#{version}/Petalwheel-#{version}.dmg"
   name "Petalwheel"
